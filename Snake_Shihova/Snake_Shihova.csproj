@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common_Shihova\Common_Shihova.csproj">
+      <Project>{546c7fbf-3c05-403e-9920-2e43edc31b33}</Project>
+      <Name>Common_Shihova</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
